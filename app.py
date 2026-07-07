@@ -55,6 +55,10 @@ weight = st.number_input(
 
 if st.button("Calculate BMI"):
 
+    st.write("Height:", height)
+    st.write("Weight:", weight)     
+
+
     if first_name == "" or last_name == "":
         st.warning("Please enter your first and last name.")
 
